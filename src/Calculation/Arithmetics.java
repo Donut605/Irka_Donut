@@ -22,15 +22,21 @@ public class Arithmetics {
 	}
 	
 	public double deduct(double a, double b) {
-		return a-b;
+		s=a-b;
+		System.out.println("Разность чисел:"+s);
+		return s;
 	}
 	
 	public double mult(double a, double b) {
-		return a*b;
+		s=a*b;
+		System.out.println("Умножение чисел:"+s);
+		return s;
 	}
 	
 	public double div(double a, double b) {
-		return a/b;
+		s=a/b;
+		System.out.println("Деление чисел:"+s);
+		return s;
 	}
 
 }
